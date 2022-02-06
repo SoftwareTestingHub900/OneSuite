@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OneSuite">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+	</listeners>
+
+	<test name="Signup_Subsciber">
+		<classes>
+			<class name="com.onesuite.testcases.Signup_Subsciber" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="SubscriberRecharge">
+		<classes>
+			<class name="com.onesuite.testcases.SubscriberRecharge" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="BuyOSNumber">
+		<classes>
+			<class name="com.onesuite.testcases.BuyOSNumber" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="MyNumberlisting">
+		<classes>
+			<class name="com.onesuite.testcases.MyNumberlisting" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="CallForwarding">
+		<classes>
+			<class name="com.onesuite.testcases.CallForwarding" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="CallBack">
+		<classes>
+			<class name="com.onesuite.testcases.CallBack" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="CallPlan">
+		<classes>
+			<class name="com.onesuite.testcases.CallPlan"></class>
+		</classes>
+	</test><!-- Test -->
+
+	<test name="Support">
+		<classes>
+			<class name="com.onesuite.testcases.Support" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="UpdateSubscriberProfile">
+		<classes>
+			<class name="com.onesuite.testcases.UpdateSubscriberProfile" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="AddressBook">
+		<classes>
+			<class name="com.onesuite.testcases.AddressBook" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
